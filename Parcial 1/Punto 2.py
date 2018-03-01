@@ -1,7 +1,9 @@
 
 # coding: utf-8
 
-# In[35]:
+# In[3]:
+
+
 
 
 
@@ -45,7 +47,12 @@ def aitken(x0,x1,x2,resultEva,Iteraciones):
         print("\t R: ",a0,"   \t E:",error)
 
 resultEva = 1
+x0 = evaluarTaylor(0,resultEva)
+x1 = evaluarTaylor(1,resultEva)
+x2 = evaluarTaylor(2,resultEva)
 
+E = 1.e-15
 
 aitken(x0, x1, x2, resultEva,E)
+
 
