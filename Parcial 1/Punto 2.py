@@ -53,6 +53,4 @@ x2 = evaluarTaylor(2,resultEva)
 
 E = 1.e-15
 
-aitken(x0, x1, x2, resultEva,E)
-
-
+aitken(x0, x1, x2, resultEva,E
