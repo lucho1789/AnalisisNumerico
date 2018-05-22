@@ -5,11 +5,12 @@ using namespace std;
 
 int funcion(int n);
 
+
 int main(){
 
     int n;
 
-    cout<<"Digite tamaño de la matriz cuadrada: ";
+    cout<<"Digite el tamaÃ±o de la matriz cuadrada: ";
     cin>>n;
 
     float matriz[n][n];
@@ -54,14 +55,13 @@ int main(){
 
     cout<<endl<<"el Resultado de la suma "<<acomulado<<". operaciones realizadas "<<num<<". Tiempo de ejecucion = "<<ellapsedSeconds<< " milisegundos"<<endl;
 
-    //parte c
+    
 
-    cout<<endl<<"El numero de operaciones realizadas (calculado) es igual a "<<funcion(n)<<endl<<endl;
+    cout<<endl<<"El numero de operaciones realizadas &punto c& es igual a "<<funcion(n)<<endl<<endl;
 
     return 0;
 }
 
-//parte c
 int funcion(int n){
     return (n*(n+1))/2;
 }
